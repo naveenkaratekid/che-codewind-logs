@@ -1,0 +1,907 @@
+root INFO Theia app listening on http://0.0.0.0:3100.
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_ports_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/eclipse_che_ports_plugin.theia',
+     initPath: '/default-theia-plugins/eclipse_che_ports_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_theia_containers_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath:
+      '/default-theia-plugins/eclipse_che_theia_containers_plugin.theia',
+     initPath:
+      '/default-theia-plugins/eclipse_che_theia_containers_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_theia_factory_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath:
+      '/default-theia-plugins/eclipse_che_theia_factory_plugin.theia',
+     initPath:
+      '/default-theia-plugins/eclipse_che_theia_factory_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_theia_ssh_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/eclipse_che_theia_ssh_plugin.theia',
+     initPath: '/default-theia-plugins/eclipse_che_theia_ssh_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_welcome_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/eclipse_che_welcome_plugin.theia',
+     initPath: '/default-theia-plugins/eclipse_che_welcome_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'task_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/task_plugin.theia',
+     initPath: '/default-theia-plugins/task_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'theia_yeoman_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/theia_yeoman_plugin.theia',
+     initPath: '/default-theia-plugins/theia_yeoman_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginVsCodeFileHandler { unpackedFolder: '/tmp/vscode-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'vscode-git-1.3.0.1.vsix',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/vscode-git-1.3.0.1.vsix',
+     initPath: '/default-theia-plugins/vscode-git-1.3.0.1.vsix',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginVsCodeFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginVsCodeFileHandler { unpackedFolder: '/tmp/vscode-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///plugins',
+     pluginId:
+      'eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath:
+      '/plugins/eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix',
+     initPath:
+      '/plugins/eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginVsCodeFileHandler' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_ports_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_theia_ssh_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_welcome_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/task_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/theia_yeoman_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/vscode-unpacked/vscode-git-1.3.0.1.vsix
+root INFO Resolved "vscode-git-1.3.0.1.vsix" to a VS Code extension "git@1.0.0" with engines: { vscode: '^1.5.0' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /plugins/.Trash-1001
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/vscode-unpacked/eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix
+root INFO Resolved "eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix" to a VS Code extension "codewind@0.3.0" with engines: { vscode: '^1.28.0' }
+root INFO Deploying backend plugin "@eclipse-che/ports-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_ports_plugin.theia/lib/ports-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/theia-containers-plugin@0.0.2" from "/tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia/lib/containers-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/theia-factory-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia/lib/factory-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/theia-ssh-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_theia_ssh_plugin.theia/lib/ssh-plugin-backend.js"
+root INFO Deploying backend plugin "@eclipse-che/welcome-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_welcome_plugin.theia/lib/welcome-plugin.js"
+root INFO Deploying backend plugin "task-plugin@0.0.1" from "/tmp/theia-unpacked/task_plugin.theia/lib/task-plugin-backend.js"
+root INFO Deploying backend plugin "@theia/yeoman-plugin@0.0.1-1539189859" from "/tmp/theia-unpacked/theia_yeoman_plugin.theia/lib/theia-yeoman-plugin-backend-plugin.js"
+root INFO Deploying backend plugin "git@1.0.0" from "/tmp/vscode-unpacked/vscode-git-1.3.0.1.vsix/extension/out/main"
+root INFO Deploying backend plugin "codewind@0.3.0" from "/tmp/vscode-unpacked/eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix/extension/out/extension"
+root WARN Failed to resolve module: @types/body-parser
+root WARN Failed to resolve module: @types/bunyan
+root WARN Failed to resolve module: @types/express
+root WARN Failed to resolve module: @types/lodash.debounce
+root WARN Failed to resolve module: @types/lodash.throttle
+root WARN Failed to resolve module: @types/react
+root WARN Failed to resolve module: @types/react-dom
+root WARN Failed to resolve module: @types/react-virtualized
+root WARN Failed to resolve module: @types/route-parser
+root WARN Failed to resolve module: @types/ws
+root WARN Failed to resolve module: @types/yargs
+root WARN Failed to resolve module: font-awesome
+root WARN Failed to resolve module: react
+root WARN Failed to resolve module: react-dom
+root WARN Failed to resolve module: react-virtualized
+root WARN Failed to resolve module: @types/fs-extra
+root WARN Failed to resolve module: @types/mime-types
+root WARN Failed to resolve module: @types/rimraf
+root WARN Failed to resolve module: @types/tar-fs
+root WARN Failed to resolve module: @types/touch
+root WARN Failed to resolve module: @types/uuid
+root WARN Failed to resolve module: @typefox/monaco-editor-core
+root WARN Failed to resolve module: @types/base64-arraybuffer
+root WARN Failed to resolve module: @theia/monaco
+root WARN Failed to resolve module: @types/p-debounce
+root WARN Failed to resolve module: @types/diff
+root WARN Failed to resolve module: @types/highlight.js
+root WARN Failed to resolve module: @types/markdown-it
+root WARN Failed to resolve module: @types/markdown-it-anchor
+root INFO [nsfw-watcher: 23] Started watching: /home/theia/.theia
+root WARN e.onStart is slow, took: 745.1699999801349 ms
+root INFO [nsfw-watcher: 23] Started watching: /projects/.theia/settings.json
+root INFO Config file tasks.json does not exist under file:///projects
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37) starting instance
+
+root INFO [nsfw-watcher: 23] Started watching: /projects
+root INFO [nsfw-watcher: 23] Started watching: /projects
+root WARN Plugin contributes items to a menu with invalid identifier: scm/sourceControl
+root WARN Plugin contributes items to a menu with invalid identifier: scm/change/title
+root WARN Plugin contributes items to a menu with invalid identifier: view/title
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/init()
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): initializing(/home/theia/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_ports_plugin.theia/lib/ports-plugin.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia/lib/containers-plugin.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia/lib/factory-plugin.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_theia_ssh_plugin.theia/lib/ssh-plugin-backend.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_welcome_plugin.theia/lib/welcome-plugin.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/task_plugin.theia/lib/task-plugin-backend.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/theia_yeoman_plugin.theia/lib/theia-yeoman-plugin-backend-plugin.js)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/vscode-unpacked/vscode-git-1.3.0.1.vsix/extension/out/main)
+
+root INFO [hosted-plugin: 37] PLUGIN_HOST(37): PluginManagerExtImpl/loadPlugin(/tmp/vscode-unpacked/eclipse.codewind-plugin.latest.mgygqfmgmo.codewind-theia.vsix/extension/out/extension)
+
+root INFO [hosted-plugin: 37] Codewind Tools created logs dir /home/theia/.theia/logs/20190809T153145/host/IBM.codewind
+
+root INFO [hosted-plugin: 37] Codewind Tools log file is at /home/theia/.theia/logs/20190809T153145/host/IBM.codewind/codewind.log
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:46.991 Logger.js.setLogFilePath():62]: Logger initialized at /home/theia/.theia/logs/20190809T153145/host/IBM.codewind/codewind.log
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:46.992 extension.js:52]: Finished activating logger
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:47.039 translator.js.init():65]: i18next initialized
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:47.040 extension.js:64]: activeMsg: Codewind Tools for VSCode are active!
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:47.041 InitViews.js.default():16]: Initializing views
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:47.041 CodewindManager.js.CodewindManager():51]: Codewind is running in Theia; URL is https://localhost:9090/
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:47.042 CodewindManager.js.addOnChangeListener():97]: Adding onChangeListener 
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:47.042 ProjectTree.js.ProjectTreeDataProvider():37]: Finished constructing ProjectTree
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:47.043 ProjectTree.js.ProjectTreeDataProvider():42]: Auto-expanding the Codewind view
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:47.044 StartCodewindCmd.js:26]: Start Codewind Cmd
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:47.049 extension.js:85]: Finished activating
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root ERROR [hosted-plugin: 37] Progress location 'SourceControl' is not supported.
+
+root INFO [nsfw-watcher: 23] Started watching: /projects/goproj/README.md
+root INFO [nsfw-watcher: 23] Started watching: /projects/goproj/README.md
+root ERROR TypeError: Cannot read property 'contentWindow' of undefined
+    at t.onBeforeHide (http://route0i7l2mgo-eclipse-che.9.42.17.120.nip.io/theia.475238c47b0f9aa0b1bb.js:1:2166994)
+    at t.e.processMessage (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:63:28334)
+    at h (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:19:2549)
+    at Object.n [as sendMessage] (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:19:1611)
+    at t.e.hide (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:63:27359)
+    at t._onCurrentChanged (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:106:56743)
+    at t.n._onCurrentChanged (http://route0i7l2mgo-eclipse-che.9.42.17.120.nip.io/theia.475238c47b0f9aa0b1bb.js:1:2192297)
+    at l (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:57:30511)
+    at Object.t.emit (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:57:30238)
+    at e.emit (https://static.developers.redhat.com/che/theia_artifacts/vendors.795ac5958e7158cc3edd.js:57:28485)
+root ERROR [hosted-plugin: 37] [ERRO: 15:31:47.373 extension.js.on():43]: Unhandled promise rejection: Error: Failed to show text document [object Object]
+    at Object.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:242:43)
+    at step (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:47:23)
+    at Object.next (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:28:53)
+    at fulfilled (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:19:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.206 CodewindManager.js:165]: Good response from healthcheck
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.206 CodewindManager.js:126]: Codewind is already started
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.206 ActivateConnectionCmd.js:33]: Activating connection to https://localhost:9090/
+
+root ERROR [hosted-plugin: 37] Promise rejection not handled in one second: Error: Failed to show text document [object Object]
+
+root ERROR [hosted-plugin: 37] With stack trace: Error: Failed to show text document [object Object]
+    at Object.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:242:43)
+    at step (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:47:23)
+    at Object.next (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:28:53)
+    at fulfilled (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-context.js:19:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.497 ActivateConnectionCmd.js:35]: ENV data: { running_in_k8s: true,
+  user_string: null,
+  socket_namespace: '/default',
+  workspace_location: '/projects',
+  os_platform: 'Linux',
+  tekton_dashboard_url: 'error' }
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.499 MCSocket.js.MCSocket():165]: Creating MCSocket for URI https://localhost:9090/default
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.506 Connection.js.getHost():137]: CHE_API_EXTERNAL=http://che-eclipse-che.9.42.17.120.nip.io/api
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.506 Connection.js.getHost():143]: Setting connection host in Theia to che-eclipse-che.9.42.17.120.nip.io
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.506 Connection.js:114]: In theia; no filewatcher required
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.507 Connection.js.Connection():93]: Created new Connection @ https://localhost:9090/ latest, workspace file:///projects
+[INFO: 15:31:48.507 CodewindManager.js:78]: New Connection @ https://localhost:9090/
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.507 ActivateConnectionCmd.js:65]: Successfully connected to codewind at https://localhost:9090/
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.797 Connection.js:46]: https://localhost:9090/ latest onConnect
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.797 Connection.js:62]: https://localhost:9090/ latest is now connected
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.798 Connection.js:175]: Updating projects list from https://localhost:9090/ latest
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.896 Project.js.Project():101]: Creating project from info: { projectID: '44894be0-b9f7-11e9-ac56-2d409475f3fc',
+  name: 'my-lagom-project',
+  language: 'java',
+  host: '',
+  ports: '',
+  workspace: '/projects/work/',
+  directory: 'my-lagom-project',
+  infLockFlag: false,
+  locOnDisk: '/codewind-workspace/my-lagom-project',
+  loadTestPath: '/codewind-workspace/my-lagom-project/load-test',
+  startMode: 'run',
+  projectType: 'docker',
+  buildLogPath: null,
+  state: 'closed',
+  autoBuild: false }
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.897 Project.js.update():73]: my-lagom-project went from undefined to [Disabled], startMode=run
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.898 Project.js.Project():136]: Created Docker project my-lagom-project with ID 44894be0-b9f7-11e9-ac56-2d409475f3fc at /projects/my-lagom-project
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.899 Connection.js:200]: New project my-lagom-project
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.899 Project.js.Project():101]: Creating project from info: { projectID: '5fd72eb0-bab7-11e9-ac56-2d409475f3fc',
+  name: 'test-python-che',
+  language: 'python',
+  host: '',
+  ports: '',
+  workspace: '/projects/',
+  directory: 'test-python-che',
+  infLockFlag: false,
+  locOnDisk: '/codewind-workspace/test-python-che',
+  loadTestPath: '/codewind-workspace/test-python-che/load-test',
+  projectType: 'docker',
+  buildLogPath:
+   '/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/docker.build.log',
+  state: 'open',
+  autoBuild: true,
+  buildStatus: 'inProgress',
+  detailedBuildStatus: 'Creating image',
+  projectWatchStateId: '57c3f2b813b59541285f7acdc7d34c50',
+  ignoredPaths:
+   [ '/.project',
+     '*/node_modules*',
+     '*/.git/*',
+     '*/.DS_Store',
+     '*/*.swp',
+     '*/*.swx',
+     '*/4913',
+     '/load-test*',
+     '*/.dockerignore',
+     '*/.gitignore',
+     '*/*~',
+     '/.settings' ],
+  appStatus: 'stopped' }
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.900 Project.js.update():73]: test-python-che went from undefined to [Stopped] [Building - Creating image]
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.900 Requester.js:210]: Doing checking available logs request to https://localhost:9090/api/v1/projects/5fd72eb0-bab7-11e9-ac56-2d409475f3fc/logs
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.902 Requester.js:210]: Doing Getting capabilities request to https://localhost:9090/api/v1/projects/5fd72eb0-bab7-11e9-ac56-2d409475f3fc/capabilities
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.902 Project.js.Project():136]: Created Docker project test-python-che with ID 5fd72eb0-bab7-11e9-ac56-2d409475f3fc at /projects/test-python-che
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.903 Connection.js:200]: New project test-python-che
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.903 Project.js.Project():101]: Creating project from info: { projectID: '8b049110-bab5-11e9-ac56-2d409475f3fc',
+  name: 'my-python',
+  language: 'python',
+  host: '',
+  ports: '',
+  workspace: '/projects/',
+  directory: 'my-python',
+  infLockFlag: false,
+  locOnDisk: '/codewind-workspace/my-python',
+  loadTestPath: '/codewind-workspace/my-python/load-test',
+  projectType: 'docker',
+  buildLogPath:
+   '/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/docker.build.log',
+  state: 'open',
+  autoBuild: true,
+  buildStatus: 'inProgress',
+  detailedBuildStatus: 'Creating image',
+  projectWatchStateId: '93bc3d8c1674bbf96f9f6bea76878b1c',
+  ignoredPaths:
+   [ '/.project',
+     '*/node_modules*',
+     '*/.git/*',
+     '*/.DS_Store',
+     '*/*.swp',
+     '*/*.swx',
+     '*/4913',
+     '/load-test*',
+     '*/.dockerignore',
+     '*/.gitignore',
+     '*/*~',
+     '/.settings' ],
+  appStatus: 'stopped' }
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.903 Project.js.update():73]: my-python went from undefined to [Stopped] [Building - Creating image]
+[INFO: 15:31:48.903 Requester.js:210]: Doing checking available logs request to https://localhost:9090/api/v1/projects/8b049110-bab5-11e9-ac56-2d409475f3fc/logs
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.904 Requester.js:210]: Doing Getting capabilities request to https://localhost:9090/api/v1/projects/8b049110-bab5-11e9-ac56-2d409475f3fc/capabilities
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.905 Project.js.Project():136]: Created Docker project my-python with ID 8b049110-bab5-11e9-ac56-2d409475f3fc at /projects/my-python
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.905 Connection.js:200]: New project my-python
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.905 Project.js.Project():101]: Creating project from info: { projectID: '83ab54f0-ba04-11e9-ac56-2d409475f3fc',
+  name: 'che-lagom',
+  language: 'java',
+  host: '',
+  ports: '',
+  workspace: '/projects/',
+  directory: 'che-lagom',
+  infLockFlag: false,
+  locOnDisk: '/codewind-workspace/che-lagom',
+  loadTestPath: '/codewind-workspace/che-lagom/load-test',
+  startMode: 'run',
+  projectType: 'docker',
+  buildLogPath:
+   '/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/docker.build.log',
+  state: 'open',
+  autoBuild: true,
+  buildStatus: 'inProgress',
+  detailedBuildStatus: 'Creating image',
+  projectWatchStateId: '839cdc372cc296311847b6353684e292',
+  ignoredPaths:
+   [ '/.project',
+     '*/node_modules*',
+     '*/.git/*',
+     '*/.DS_Store',
+     '*/*.swp',
+     '*/*.swx',
+     '*/4913',
+     '/load-test*',
+     '*/.dockerignore',
+     '*/.gitignore',
+     '*/*~',
+     '/.settings' ],
+  appStatus: 'stopped' }
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.906 Project.js.update():73]: che-lagom went from undefined to [Stopped] [Building - Creating image], startMode=run
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.906 Requester.js:210]: Doing checking available logs request to https://localhost:9090/api/v1/projects/83ab54f0-ba04-11e9-ac56-2d409475f3fc/logs
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.907 Requester.js:210]: Doing Getting capabilities request to https://localhost:9090/api/v1/projects/83ab54f0-ba04-11e9-ac56-2d409475f3fc/capabilities
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.907 Project.js.Project():136]: Created Docker project che-lagom with ID 83ab54f0-ba04-11e9-ac56-2d409475f3fc at /projects/che-lagom
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:48.908 Connection.js:200]: New project che-lagom
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:48.908 MCLogManager.js:42]: my-lagom-project LogManager has finished initializing logs: <none>
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.097 Requester.js:220]: Response code 200 from getting capabilities request for test-python-che
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:49.097 Requester.js:210]: Doing checking metrics status request to https://localhost:9090/api/v1/projects/5fd72eb0-bab7-11e9-ac56-2d409475f3fc/metrics/status
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.100 Requester.js:220]: Response code 200 from getting capabilities request for my-python
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:49.100 Requester.js:210]: Doing checking metrics status request to https://localhost:9090/api/v1/projects/8b049110-bab5-11e9-ac56-2d409475f3fc/metrics/status
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.101 Requester.js:220]: Response code 200 from getting capabilities request for che-lagom
+[INFO: 15:31:49.101 Requester.js:210]: Doing checking metrics status request to https://localhost:9090/api/v1/projects/83ab54f0-ba04-11e9-ac56-2d409475f3fc/metrics/status
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.292 Requester.js:220]: Response code 200 from checking available logs request for che-lagom
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:49.293 MCLogManager.js:42]: che-lagom LogManager has finished initializing logs: che-lagom - app.log, che-lagom - docker.build.log
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.293 Requester.js:220]: Response code 200 from checking available logs request for test-python-che
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:49.294 MCLogManager.js:42]: test-python-che LogManager has finished initializing logs: test-python-che - app.log, test-python-che - docker.build.log
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.294 Requester.js:220]: Response code 200 from checking available logs request for my-python
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:49.294 MCLogManager.js:42]: my-python LogManager has finished initializing logs: my-python - app.log, my-python - docker.build.log
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.296 Requester.js:220]: Response code 200 from checking metrics status request for test-python-che
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.297 Requester.js:220]: Response code 200 from checking metrics status request for che-lagom
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.297 Requester.js:220]: Response code 200 from checking metrics status request for my-python
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:49.297 Connection.js:208]: Done projects update
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:54.299 Connection.js:175]: Updating projects list from https://localhost:9090/ latest
+
+root INFO [hosted-plugin: 37] [DBUG: 15:31:54.394 Connection.js:208]: Done projects update
+
+root INFO [hosted-plugin: 37] [INFO: 15:31:56.992 Registry.js:74]: Setting deployment registry, is currently set? false
+
+root INFO [hosted-plugin: 37] [INFO: 15:32:49.397 MCSocket.js:141]: Deployment registry is not correctly configured Codewind was unable to push the hello-world image to the Deployment Registry docker.io/naveenk1/hello-world. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:10.595 Project.js.update():73]: my-python went from [Stopped] [Building - Creating image] to [Stopped] [Building - Container image has been built successfully]
+
+root INFO [hosted-plugin: 37] [INFO: 15:34:13.800 MCSocket.js:141]: Deployment registry is not correctly configured Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:13.999 Project.js.update():73]: my-python went from [Stopped] [Building - Container image has been built successfully] to [Stopped] [Build Failed - Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.]
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:14.401 Validator.js:32]: Validating my-python
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:15.994 Project.js.update():73]: test-python-che went from [Stopped] [Building - Creating image] to [Stopped] [Building - Container image has been built successfully]
+
+root INFO [hosted-plugin: 37] [INFO: 15:34:19.297 MCSocket.js:141]: Deployment registry is not correctly configured Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:19.401 Project.js.update():73]: test-python-che went from [Stopped] [Building - Container image has been built successfully] to [Stopped] [Build Failed - Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.]
+
+root INFO [hosted-plugin: 37] [DBUG: 15:34:19.994 Validator.js:32]: Validating test-python-che
+
+root INFO [nsfw-watcher: 23] Stopped watching: /projects/goproj/README.md
+root ERROR Uncaught Exception:  Error: ENOENT: no such file or directory, unlink '/tmp/vscode-git-askpass-063f9f71c975f82f3a704f9ff1808c1048a03794.sock'
+root ERROR Error: ENOENT: no such file or directory, unlink '/tmp/vscode-git-askpass-063f9f71c975f82f3a704f9ff1808c1048a03794.sock'
+    at Object.unlinkSync (fs.js:956:3)
+    at Askpass.dispose (/tmp/vscode-unpacked/vscode-git-1.3.0.1.vsix/extension/out/askpass.js:89:16)
+    at Disposable.disposable (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/types-impl.js:82:40)
+    at Disposable.dispose (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/types-impl.js:101:18)
+    at Disposable.context.subscriptions.push.vscode_1.Disposable [as disposable] (/tmp/vscode-unpacked/vscode-git-1.3.0.1.vsix/extension/out/main.js:94:103)
+    at Disposable.dispose (/home/theia/node_modules/@theia/plugin-ext/lib/plugin/types-impl.js:101:18)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/common/disposable-util.js:24:52
+    at Array.forEach (<anonymous>)
+    at Object.dispose (/home/theia/node_modules/@theia/plugin-ext/lib/common/disposable-util.js:24:15)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/plugin/plugin-manager.js:116:35
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.780 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CommandRegistryMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.780 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CommandRegistryMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.781 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor WorkspaceMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor WorkspaceMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.781 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CommandRegistryMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.781 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CommandRegistryMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.781 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor TasksMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor TasksMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.781 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor OutputChannelRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+  name: 'Error',
+  message: 'Unknown actor OutputChannelRegistryMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.782 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheTaskMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheTaskMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.782 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.782 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+
+root ERROR [hosted-plugin: 37] [ERRO: 15:36:52.782 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+[ERRO: 15:36:52.782 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+[ERRO: 15:36:52.783 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+[ERRO: 15:36:52.783 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+[ERRO: 15:36:52.783 extension.js.on():43]: Unhandled promise rejection: { Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21) name: 'Error', message: 'Unknown actor CheVariablesMain' }
+
+root ERROR [hosted-plugin: 37] Promise rejection not handled in one second: Error: Unknown actor CommandRegistryMain
+
+root ERROR [hosted-plugin: 37] With stack trace: Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CommandRegistryMain
+With stack trace: Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor WorkspaceMain
+With stack trace: Error: Unknown actor WorkspaceMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CommandRegistryMain
+With stack trace: Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CommandRegistryMain
+With stack trace: Error: Unknown actor CommandRegistryMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+
+root ERROR [hosted-plugin: 37] Promise rejection not handled in one second: Error: Unknown actor TasksMain
+
+root ERROR [hosted-plugin: 37] With stack trace: Error: Unknown actor TasksMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheTaskMain
+With stack trace: Error: Unknown actor CheTaskMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+
+root ERROR [hosted-plugin: 37] Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+
+root ERROR [hosted-plugin: 37] With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+Promise rejection not handled in one second: Error: Unknown actor CheVariablesMain
+With stack trace: Error: Unknown actor CheVariablesMain
+    at RPCProtocolImpl.doInvokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:200:19)
+    at RPCProtocolImpl.invokeHandler (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:192:41)
+    at RPCProtocolImpl.receiveRequest (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:154:45)
+    at RPCProtocolImpl.receiveOneMessage (/home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:123:22)
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:55:89
+    at /home/theia/node_modules/@theia/plugin-ext/lib/api/rpc-protocol.js:233:17
+    at /home/theia/node_modules/@theia/core/lib/common/event.js:161:33
+    at CallbackList.invoke (/home/theia/node_modules/@theia/core/lib/common/event.js:176:39)
+    at Emitter.fire (/home/theia/node_modules/@theia/core/lib/common/event.js:264:29)
+    at ChildProcess.<anonymous> (/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/hosted-plugin-process.js:143:21)
+
+root INFO [nsfw-watcher: 142] Started watching: /home/theia/.theia
+root INFO [nsfw-watcher: 142] Started watching: /projects/.theia/settings.json
+root INFO [nsfw-watcher: 142] Started watching: /projects/goproj/README.md
+root INFO [nsfw-watcher: 142] Started watching: /projects
+root INFO [nsfw-watcher: 142] Started watching: /projects

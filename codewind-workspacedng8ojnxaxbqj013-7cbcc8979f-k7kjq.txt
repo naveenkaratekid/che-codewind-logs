@@ -1,0 +1,625 @@
+Creating workspace config directory
+codewind-pfe container started Fri Aug  9 15:30:57 UTC 2019
+Initializing a custom helm tiller
+Creating /root/.helm 
+Creating /root/.helm/repository 
+Creating /root/.helm/repository/cache 
+Creating /root/.helm/repository/local 
+Creating /root/.helm/plugins 
+Creating /root/.helm/starters 
+Creating /root/.helm/cache/archive 
+Creating /root/.helm/repository/repositories.yaml 
+Adding stable repo with URL: https://kubernetes-charts.storage.googleapis.com 
+Adding local repo with URL: http://127.0.0.1:8879/charts 
+$HELM_HOME has been configured at /root/.helm.
+
+Tiller (the Helm server-side component) has been upgraded to the current version.
+Happy Helming!
+Copying the docker registry secrets over
+Creating kubectl wrapper
+
+> codewind-portal@1.0.0 start /portal
+> ./npm-start.sh
+
+Found node environment set to prod. Running in production mode.
+
+> codewind-portal@1.0.0 prod /portal
+> node server.js
+
+[32m[09/08/19 15:31:17 server.js] [INFO][39m Codewind is running in k8s
+[32m[09/08/19 15:31:17 server.js] [INFO][39m Ingress path is "che-eclipse-che.9.42.17.120.nip.io"
+[32m[09/08/19 15:31:20 /portal/modules/projectInitializer.js] [INFO][39m dockerTag = latest
+[32m[09/08/19 15:31:25 Turbine] [INFO][39m The current log level is info
+[32m[09/08/19 15:31:30 Turbine] [INFO][39m Initialize application state map
+[32m[09/08/19 15:31:30 Turbine] [INFO][39m Initialize build state map
+[32m[09/08/19 15:31:30 Turbine] [INFO][39m Starting application ping intervals
+[32m[09/08/19 15:31:31 Turbine] [INFO][39m The project folder does not exist yet: /file-watcher/fwdata/projects/
+(node:107) [DEP0091] DeprecationWarning: crypto.DEFAULT_ENCODING is deprecated.
+(node:107) [DEP0010] DeprecationWarning: crypto.createCredentials is deprecated. Use tls.createSecureContext instead.
+(node:107) [DEP0011] DeprecationWarning: crypto.Credentials is deprecated. Use tls.SecureContext instead.
+[32m[09/08/19 15:31:32 /portal/modules/Project.js] [INFO][39m Project my-lagom-project initializing (project type: docker, projectID: 44894be0-b9f7-11e9-ac56-2d409475f3fc)
+[32m[09/08/19 15:31:32 /portal/modules/Project.js] [INFO][39m Project test-python-che initializing (project type: docker, projectID: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc)
+[32m[09/08/19 15:31:32 /portal/modules/Project.js] [INFO][39m Project my-python initializing (project type: docker, projectID: 8b049110-bab5-11e9-ac56-2d409475f3fc)
+[32m[09/08/19 15:31:32 /portal/modules/Project.js] [INFO][39m Project che-lagom initializing (project type: docker, projectID: 83ab54f0-ba04-11e9-ac56-2d409475f3fc)
+[32m[09/08/19 15:31:32 Turbine] [INFO][39m Registered listener: portalListener
+[32m[09/08/19 15:31:33 User.js] [INFO][39m Building project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc (test-python-che)
+[32m[09/08/19 15:31:33 User.js] [INFO][39m Building project 8b049110-bab5-11e9-ac56-2d409475f3fc (my-python)
+[32m[09/08/19 15:31:33 User.js] [INFO][39m Building project 83ab54f0-ba04-11e9-ac56-2d409475f3fc (che-lagom)
+[32m[09/08/19 15:31:33 server.js] [INFO][39m PerformanceHost: codewind-performance-workspacedng8ojnxaxbqj013
+[32m[09/08/19 15:31:33 server.js] [INFO][39m Setting up codewind Express routes
+[32m[09/08/19 15:31:33 FileWatcher.js] [INFO][39m Calling createProject() for project test-python-che {"projectID":"5fd72eb0-bab7-11e9-ac56-2d409475f3fc","projectType":"docker","location":"/codewind-workspace/test-python-che","settings":{"contextRoot":"","internalPort":"","healthCheck":"","ignoredPaths":[""],"watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}},"language":"python"}
+[32m[09/08/19 15:31:33 FileWatcher.js] [INFO][39m Calling createProject() for project my-python {"projectID":"8b049110-bab5-11e9-ac56-2d409475f3fc","projectType":"docker","location":"/codewind-workspace/my-python","settings":{"contextRoot":"","internalPort":"","healthCheck":"","watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}},"language":"python"}
+[32m[09/08/19 15:31:33 FileWatcher.js] [INFO][39m Calling createProject() for project che-lagom {"projectID":"83ab54f0-ba04-11e9-ac56-2d409475f3fc","projectType":"docker","startMode":"run","location":"/codewind-workspace/che-lagom","settings":{"contextRoot":"","internalPort":"","healthCheck":"","ignoredPaths":[""],"watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}},"language":"java"}
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Creating project logs directory
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m 5fd72eb0-bab7-11e9-ac56-2d409475f3fc: Project Settings: {"contextRoot":"","internalPort":"","healthCheck":"","ignoredPaths":[""],"watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}}
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Log directory found at: /codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+Skipping directory creation.
+[91m[09/08/19 15:31:33 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/controllers/projectsController.js | Function Name: getProjectInfoFromFile | Line Number: 764] Failed to find project information related to file /file-watcher/fwdata/projects/5fd72eb0-bab7-11e9-ac56-2d409475f3fc/5fd72eb0-bab7-11e9-ac56-2d409475f3fc.json
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Creating project /codewind-workspace/test-python-che
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m The generated image ID is: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc-docker-b84c735c4660e76554bff9282cba39801ef5a1d2
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Project data directory: /file-watcher/fwdata/projects/
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m The ignoredPaths array is empty, File-watcher will ignore the setting
+[32m[09/08/19 15:31:33 LoadRunner.js] [INFO][39m Loadrunner has connected
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m 5fd72eb0-bab7-11e9-ac56-2d409475f3fc: ignoredPaths after removed any empty strings: 
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Creating project logs directory
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m operationId: cac49a8417e20ed198572371e87f52f5
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Pushing project to build queue
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Building container for docker project /codewind-workspace/test-python-che
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m The log name for 5fd72eb0-bab7-11e9-ac56-2d409475f3fc is cw-5fd72eb0-bab7-11e9-ac56-2d409475f3fc-b84c735c4660e
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Container name: cw-testpythonche-5fd72eb0-bab7-11e9-ac56
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Log name: cw-5fd72eb0-bab7-11e9-ac56-2d409475f3fc-b84c735c4660e
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m In K8 environment: true
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Beginning container build and run stage
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Unable to find the workspace settings cache, reading the workspace settings file: /codewind-workspace/.config/settings.json
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m 8b049110-bab5-11e9-ac56-2d409475f3fc: Project Settings: {"contextRoot":"","internalPort":"","healthCheck":"","watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}}
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m 83ab54f0-ba04-11e9-ac56-2d409475f3fc: Project Settings: {"contextRoot":"","internalPort":"","healthCheck":"","ignoredPaths":[""],"watchedFiles":{"includeFiles":[""],"excludeFiles":[""]}}
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Log directory found at: /codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc
+Skipping directory creation.
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m Log directory found at: /codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc
+Skipping directory creation.
+[91m[09/08/19 15:31:33 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/controllers/projectsController.js | Function Name: getProjectInfoFromFile | Line Number: 764] Failed to find project information related to file /file-watcher/fwdata/projects/8b049110-bab5-11e9-ac56-2d409475f3fc/8b049110-bab5-11e9-ac56-2d409475f3fc.json
+[32m[09/08/19 15:31:33 my-python] [INFO][39m Creating project /codewind-workspace/my-python
+[91m[09/08/19 15:31:33 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/controllers/projectsController.js | Function Name: getProjectInfoFromFile | Line Number: 764] Failed to find project information related to file /file-watcher/fwdata/projects/83ab54f0-ba04-11e9-ac56-2d409475f3fc/83ab54f0-ba04-11e9-ac56-2d409475f3fc.json
+[32m[09/08/19 15:31:33 che-lagom] [INFO][39m Creating project /codewind-workspace/che-lagom
+[32m[09/08/19 15:31:33 my-python] [INFO][39m The generated image ID is: 8b049110-bab5-11e9-ac56-2d409475f3fc-docker-a5135e0b450a6abdb80b40a1b7bd26d3816b40b8
+[32m[09/08/19 15:31:33 my-python] [INFO][39m Project data directory: /file-watcher/fwdata/projects/
+[32m[09/08/19 15:31:33 che-lagom] [INFO][39m The generated image ID is: 83ab54f0-ba04-11e9-ac56-2d409475f3fc-docker-61eca69955cd1058cb449be1d60c45f021d39fb0
+[32m[09/08/19 15:31:33 che-lagom] [INFO][39m Project data directory: /file-watcher/fwdata/projects/
+[32m[09/08/19 15:31:33 che-lagom] [INFO][39m Initial start mode for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc is: run
+[32m[09/08/19 15:31:33 che-lagom] [INFO][39m The ignoredPaths array is empty, File-watcher will ignore the setting
+[32m[09/08/19 15:31:33 Turbine] [INFO][39m 83ab54f0-ba04-11e9-ac56-2d409475f3fc: ignoredPaths after removed any empty strings: 
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Beginning build for 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Build began for 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Build state changed for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc from: unknown, to: inProgress, with message: projectStatusController.buildStarted
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Build started"
+}
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Handing create operation to the selected project handler
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m Emitting event 
+ message: newProjectAdded
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ]
+}
+[32m[09/08/19 15:31:33 test-python-che] [INFO][39m projectInfo.deploymentRegistry: undefined
+[32m[09/08/19 15:31:33 my-python] [INFO][39m operationId: 8b1fb47b2967ed30cb20a0014eeb8ba0
+[32m[09/08/19 15:31:33 my-python] [INFO][39m Pushing project to build queue
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Building container for docker project /codewind-workspace/my-python
+[32m[09/08/19 15:31:34 my-python] [INFO][39m The log name for 8b049110-bab5-11e9-ac56-2d409475f3fc is cw-8b049110-bab5-11e9-ac56-2d409475f3fc-a5135e0b450a6
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Container name: cw-mypython-8b049110-bab5-11e9-ac56
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Log name: cw-8b049110-bab5-11e9-ac56-2d409475f3fc-a5135e0b450a6
+[32m[09/08/19 15:31:34 my-python] [INFO][39m In K8 environment: true
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Beginning container build and run stage
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m Unable to find the workspace settings cache, reading the workspace settings file: /codewind-workspace/.config/settings.json
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m operationId: 33aa2955160c2910afac5d3475d85b00
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Pushing project to build queue
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Building container for docker project /codewind-workspace/che-lagom
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m The log name for 83ab54f0-ba04-11e9-ac56-2d409475f3fc is cw-83ab54f0-ba04-11e9-ac56-2d409475f3fc-61eca69955cd1
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Container name: cw-chelagom-83ab54f0-ba04-11e9-ac56
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Log name: cw-83ab54f0-ba04-11e9-ac56-2d409475f3fc-61eca69955cd1
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m In K8 environment: true
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Beginning container build and run stage
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m Returning workspace settings file content: {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m workspaceSettingsInfo {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Beginning build for 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Build began for 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Build state changed for project: 8b049110-bab5-11e9-ac56-2d409475f3fc from: unknown, to: inProgress, with message: projectStatusController.buildStarted
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Build started"
+}
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Handing create operation to the selected project handler
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Emitting event 
+ message: newProjectAdded
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ]
+}
+[32m[09/08/19 15:31:34 my-python] [INFO][39m projectInfo.deploymentRegistry: undefined
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Beginning build for 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Build began for 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Build state changed for project: 83ab54f0-ba04-11e9-ac56-2d409475f3fc from: unknown, to: inProgress, with message: projectStatusController.buildStarted
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "83ab54f0-ba04-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Build started"
+}
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Handing create operation to the selected project handler
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Emitting event 
+ message: newProjectAdded
+ data: {
+  "projectID": "83ab54f0-ba04-11e9-ac56-2d409475f3fc",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ]
+}
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m projectInfo.deploymentRegistry: undefined
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m Returning workspace settings file content: {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m workspaceSettingsInfo {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 test-python-che] [INFO][39m Deployment Registry: docker.io/naveenk1
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m Returning workspace settings file content: {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 Turbine] [INFO][39m workspaceSettingsInfo {"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 test-python-che] [INFO][39m The projectInfo has been updated for deploymentRegistry: {"projectID":"5fd72eb0-bab7-11e9-ac56-2d409475f3fc","projectType":"docker","location":"/codewind-workspace/test-python-che","autoBuildEnabled":true,"startMode":"run","appPorts":[],"language":"python","ignoredPaths":["/.project","*/node_modules*","*/.git/*","*/.DS_Store","*/*.swp","*/*.swx","*/4913","/load-test*","*/.dockerignore","*/.gitignore","*/*~","/.settings"],"sentProjectInfo":false,"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 test-python-che] [INFO][39m The chart location is: /codewind-workspace/test-python-che/chart/svtpythontemplate
+[32m[09/08/19 15:31:34 test-python-che] [INFO][39m Copying chart from /codewind-workspace/test-python-che/chart/svtpythontemplate to /tmp/test-python-che/svtpythontemplate
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Deployment Registry: docker.io/naveenk1
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Deployment Registry: docker.io/naveenk1
+[32m[09/08/19 15:31:34 my-python] [INFO][39m The projectInfo has been updated for deploymentRegistry: {"projectID":"8b049110-bab5-11e9-ac56-2d409475f3fc","projectType":"docker","location":"/codewind-workspace/my-python","autoBuildEnabled":true,"startMode":"run","appPorts":[],"language":"python","ignoredPaths":["/.project","*/node_modules*","*/.git/*","*/.DS_Store","*/*.swp","*/*.swx","*/4913","/load-test*","*/.dockerignore","*/.gitignore","*/*~","/.settings"],"sentProjectInfo":false,"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m The projectInfo has been updated for deploymentRegistry: {"projectID":"83ab54f0-ba04-11e9-ac56-2d409475f3fc","projectType":"docker","location":"/codewind-workspace/che-lagom","autoBuildEnabled":true,"startMode":"run","appPorts":[],"language":"java","ignoredPaths":["/.project","*/node_modules*","*/.git/*","*/.DS_Store","*/*.swp","*/*.swx","*/4913","/load-test*","*/.dockerignore","*/.gitignore","*/*~","/.settings"],"sentProjectInfo":false,"deploymentRegistry":"docker.io/naveenk1"}
+[32m[09/08/19 15:31:34 my-python] [INFO][39m The chart location is: /codewind-workspace/my-python/chart/svtpythontemplate
+[32m[09/08/19 15:31:34 my-python] [INFO][39m Copying chart from /codewind-workspace/my-python/chart/svtpythontemplate to /tmp/my-python/svtpythontemplate
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m The chart location is: /codewind-workspace/che-lagom/chart/lagomjavatemplate
+[32m[09/08/19 15:31:34 che-lagom] [INFO][39m Copying chart from /codewind-workspace/che-lagom/chart/lagomjavatemplate to /tmp/che-lagom/lagomjavatemplate
+[32m[09/08/19 15:31:35 Turbine] [INFO][39m Finished copying dir /codewind-workspace/test-python-che/chart/svtpythontemplate to /tmp/test-python-che/svtpythontemplate
+[32m[09/08/19 15:31:35 test-python-che] [INFO][39m Modifying charts and running Helm install from dir /tmp/test-python-che/svtpythontemplate
+[32m[09/08/19 15:31:35 Turbine] [INFO][39m Finished copying dir /codewind-workspace/my-python/chart/svtpythontemplate to /tmp/my-python/svtpythontemplate
+[32m[09/08/19 15:31:36 my-python] [INFO][39m Modifying charts and running Helm install from dir /tmp/my-python/svtpythontemplate
+[32m[09/08/19 15:31:37 Turbine] [INFO][39m Finished copying dir /codewind-workspace/che-lagom/chart/lagomjavatemplate to /tmp/che-lagom/lagomjavatemplate
+[32m[09/08/19 15:31:38 che-lagom] [INFO][39m Modifying charts and running Helm install from dir /tmp/che-lagom/lagomjavatemplate
+[32m[09/08/19 15:31:40 /portal/routes/projects/fileChanges.route.js] [INFO][39m Watch status for projectID 83ab54f0-ba04-11e9-ac56-2d409475f3fc: success
+[32m[09/08/19 15:31:40 /portal/routes/projects/fileChanges.route.js] [INFO][39m Watch status for projectID 5fd72eb0-bab7-11e9-ac56-2d409475f3fc: success
+[32m[09/08/19 15:31:40 /portal/routes/projects/fileChanges.route.js] [INFO][39m Watch status for projectID 5da9e7abbf37dda3b7be7a8fab76dc1e: success
+[32m[09/08/19 15:31:40 /portal/routes/projects/fileChanges.route.js] [INFO][39m Watch status for projectID 8b049110-bab5-11e9-ac56-2d409475f3fc: success
+[32m[09/08/19 15:31:41 test-python-che] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:31:41 my-python] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:31:41 che-lagom] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:31:41 test-python-che] [INFO][39m pingApplications: Application state error message: could not retrieve the port for the project
+[32m[09/08/19 15:31:41 test-python-che] [INFO][39m pingApplications: Application state for project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc has changed from unknown to stopped
+[32m[09/08/19 15:31:41 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "appStatus": "stopped"
+}
+[32m[09/08/19 15:31:41 my-python] [INFO][39m pingApplications: Application state error message: could not retrieve the port for the project
+[32m[09/08/19 15:31:41 my-python] [INFO][39m pingApplications: Application state for project 8b049110-bab5-11e9-ac56-2d409475f3fc has changed from unknown to stopped
+[32m[09/08/19 15:31:41 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "appStatus": "stopped"
+}
+[32m[09/08/19 15:31:41 che-lagom] [INFO][39m pingApplications: Application state error message: could not retrieve the port for the project
+[32m[09/08/19 15:31:41 che-lagom] [INFO][39m pingApplications: Application state for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc has changed from unknown to stopped
+[32m[09/08/19 15:31:41 che-lagom] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "83ab54f0-ba04-11e9-ac56-2d409475f3fc",
+  "appStatus": "stopped"
+}
+[32m[09/08/19 15:31:43 test-python-che] [INFO][39m Build state changed for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc from: inProgress, to: inProgress, with message: buildscripts.buildImage
+[32m[09/08/19 15:31:43 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Creating image"
+}
+[32m[09/08/19 15:31:43 test-python-che] [INFO][39m Build container image
+[32m[09/08/19 15:31:45 che-lagom] [INFO][39m Build state changed for project: 83ab54f0-ba04-11e9-ac56-2d409475f3fc from: inProgress, to: inProgress, with message: buildscripts.buildImage
+[32m[09/08/19 15:31:45 che-lagom] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "83ab54f0-ba04-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Creating image"
+}
+[32m[09/08/19 15:31:45 che-lagom] [INFO][39m Build container image
+[32m[09/08/19 15:31:45 my-python] [INFO][39m Build state changed for project: 8b049110-bab5-11e9-ac56-2d409475f3fc from: inProgress, to: inProgress, with message: buildscripts.buildImage
+[32m[09/08/19 15:31:45 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Creating image"
+}
+[32m[09/08/19 15:31:45 my-python] [INFO][39m Build container image
+[32m[09/08/19 15:31:45 User.js] [INFO][39m Check for new log files for project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:45 FileWatcher.js] [INFO][39m Check for new build log files for project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:45 Turbine] [INFO][39m Fetching logs for project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:45 test-python-che] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:45 test-python-che] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:45 test-python-che] [INFO][39m Emitting event 
+ message: projectLogsListChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "type": "build",
+  "build": {
+    "origin": "workspace",
+    "files": [
+      "/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/docker.build.log"
+    ]
+  }
+}
+[32m[09/08/19 15:31:46 User.js] [INFO][39m Check for new log files for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 FileWatcher.js] [INFO][39m Check for new build log files for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 Turbine] [INFO][39m Fetching logs for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 che-lagom] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:46 che-lagom] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:46 che-lagom] [INFO][39m Emitting event 
+ message: projectLogsListChanged
+ data: {
+  "projectID": "83ab54f0-ba04-11e9-ac56-2d409475f3fc",
+  "type": "build",
+  "build": {
+    "origin": "workspace",
+    "files": [
+      "/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/docker.build.log"
+    ]
+  }
+}
+[32m[09/08/19 15:31:46 User.js] [INFO][39m Check for new log files for project 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 FileWatcher.js] [INFO][39m Check for new build log files for project 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 Turbine] [INFO][39m Fetching logs for project 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:46 my-python] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:46 my-python] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:46 my-python] [INFO][39m Emitting event 
+ message: projectLogsListChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "type": "build",
+  "build": {
+    "origin": "workspace",
+    "files": [
+      "/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/docker.build.log"
+    ]
+  }
+}
+[32m[09/08/19 15:31:48 /portal/routes/environment.route.js] [INFO][39m Looking for ingresses in Tekton namespace tekton-pipelines
+[91m[09/08/19 15:31:48 /portal/routes/environment.route.js] [ERROR][39m Unexpected error getting Tekton URL: {"code":403,"statusCode":403}
+[32m[09/08/19 15:31:48 /portal/routes/environment.route.js] [INFO][39m Initialized Tekton dashboard url as "error"
+[32m[09/08/19 15:31:49 Turbine] [INFO][39m Fetching logs for project 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:49 Turbine] [INFO][39m Fetching logs for project 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:49 Turbine] [INFO][39m Fetching logs for project 83ab54f0-ba04-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:31:49 my-python] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:49 che-lagom] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:49 test-python-che] [INFO][39m buildlog path:
+ {"origin":"workspace","files":["/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/docker.build.log"]}
+[32m[09/08/19 15:31:49 my-python] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/my-python-8b049110-bab5-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:49 che-lagom] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/che-lagom-83ab54f0-ba04-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:49 test-python-che] [INFO][39m applog path:
+{"origin":"workspace","files":["/codewind-workspace/.logs/test-python-che-5fd72eb0-bab7-11e9-ac56-2d409475f3fc/app.log"]}
+[32m[09/08/19 15:31:50 test-python-che] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:32:24 Turbine] [INFO][39m Testing the deployment registry: docker.io/naveenk1
+[91m[09/08/19 15:32:35 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: testDeploymentRegistry : 531 | Getting image source signatures
+
+[91m[09/08/19 15:32:45 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: testDeploymentRegistry : 531 | Copying blob sha256:1b930d010525941c1d56ec53b97bd057a67ae1865eebf042686d2a2d18271ced
+
+[91m[09/08/19 15:32:45 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: testDeploymentRegistry : 531 | Copying config sha256:fce289e99eb9bca977dae136fbe2a82b6b7d4c372474c9235adc1741675f587e
+
+[91m[09/08/19 15:32:45 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: testDeploymentRegistry : 531 | Writing manifest to image destination
+Storing signatures
+
+[91m[09/08/19 15:32:48 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: _tickCallback : 68 | Getting image source signatures
+
+[91m[09/08/19 15:32:49 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: _tickCallback : 68 | error copying layers and metadata from "containers-storage:[overlay@/var/lib/containers/storage+/var/run/containers/storage]docker.io/library/hello-world:latest" to "docker://naveenk1/hello-world:latest": Error trying to reuse blob sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3 at destination: Error checking whether a blob sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3 exists in docker.io/naveenk1/hello-world: errors:
+denied: requested access to the resource is denied
+error parsing HTTP 401 response body: unexpected end of JSON input: ""
+
+
+[91m[09/08/19 15:32:49 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/workspaceSettings.js | Function Name: testDeploymentRegistry | Line Number: 171] Codewind was unable to push the hello-world image to the Deployment Registry docker.io/naveenk1/hello-world. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+[91m[09/08/19 15:32:49 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/workspaceSettings.js | Function Name: testDeploymentRegistry | Line Number: 172] [object Object]
+[32m[09/08/19 15:32:49 Turbine] [INFO][39m Emitting event 
+ message: deploymentRegistryStatus
+ data: {
+  "deploymentRegistryTest": false,
+  "msg": "Codewind was unable to push the hello-world image to the Deployment Registry docker.io/naveenk1/hello-world. Please make sure it is a valid Deployment Registry with the appropriate permissions."
+}
+[91m[09/08/19 15:32:49 Turbine] [ERROR][39m [File Name: /file-watcher/server/dist/utils/logger.js | Function Name: logProjectError | Line Number: 202] deploymentRegistryTest1: _tickCallback : 68 | | The command buildah push,--tls-verify=false,hello-world,docker.io/naveenk1/hello-world failed with exit code 1
+[32m[09/08/19 15:32:50 test-python-che] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:34:10 my-python] [INFO][39m Container image build stage complete.
+[32m[09/08/19 15:34:10 my-python] [INFO][39m Build state changed for project: 8b049110-bab5-11e9-ac56-2d409475f3fc from: inProgress, to: inProgress, with message: buildscripts.containerBuildSuccess
+[32m[09/08/19 15:34:10 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Container image has been built successfully",
+  "appImageLastBuild": "1565364850005"
+}
+[32m[09/08/19 15:34:10 my-python] [INFO][39m Pushing image
+[32m[09/08/19 15:34:11 my-python] [INFO][39m Pod name was not found while looking up service information for project.
+[91m[09/08/19 15:34:11 my-python] [ERROR][39m containerBuildAndRun : 1306 | Getting image source signatures
+
+[91m[09/08/19 15:34:13 my-python] [ERROR][39m containerBuildAndRun : 1306 | error copying layers and metadata from "containers-storage:[overlay@/var/lib/containers/storage+/var/run/containers/storage]localhost/cw-mypython-8b049110-bab5-11e9-ac56:latest" to "docker://naveenk1/cw-mypython-8b049110-bab5-11e9-ac56:latest": Error trying to reuse blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 at destination: Error checking whether a blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 exists in docker.io/naveenk1/cw-mypython-8b049110-bab5-11e9-ac56: errors:
+denied: requested access to the resource is denied
+error parsing HTTP 401 response body: unexpected end of JSON input: ""
+
+
+[32m[09/08/19 15:34:13 Turbine] [INFO][39m Emitting event 
+ message: deploymentRegistryStatus
+ data: {
+  "deploymentRegistryTest": false,
+  "msg": "Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions."
+}
+[91m[09/08/19 15:34:13 cw-mypython-8b049110-bab5-11e9-ac56] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: containerBuildAndRun | Line Number: 1310] [39mFailed to push image to the registry for my-python
+[91m[09/08/19 15:34:13 cw-mypython-8b049110-bab5-11e9-ac56] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: containerBuildAndRun | Line Number: 1311] [39m[object Object]
+[91m[09/08/19 15:34:13 FileWatcher.js] [ERROR][39m projectStatusChanged: failed (project: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "buildStatus": "failed",
+  "detailedBuildStatus": "Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.",
+  "lastbuild": 1565364853806
+})
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Validating project using operationId: 31cc4fe391fa2feb612085131df2c066
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Checking for required files
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Checking for required file /Dockerfile
+[91m[09/08/19 15:34:13 my-python] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: buildAndRun | Line Number: 1103] [39mThe container failed to start for project my-python
+  Cause: Failed to push image to the registry for my-python
+ Error: Failed to push image to the registry for my-python
+    at containerBuildAndRun (/file-watcher/server/dist/projects/projectUtil.js:1314:19)
+[91m[09/08/19 15:34:13 FileWatcher.js] [ERROR][39m projectCreation: failed (project: {
+  "operationId": "8b1fb47b2967ed30cb20a0014eeb8ba0",
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "status": "failed",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ],
+  "error": "The container failed to start for project my-python"
+})
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Sending validation result
+[91m[09/08/19 15:34:13 my-python] [ERROR][39m containerBuildAndRun : 1306 | | The command buildah push,--tls-verify=false,cw-mypython-8b049110-bab5-11e9-ac56,docker.io/naveenk1/cw-mypython-8b049110-bab5-11e9-ac56 failed with exit code 1
+[91m[09/08/19 15:34:13 my-python] [ERROR][39m Error pushing image
+[91m[09/08/19 15:34:13 my-python] [ERROR][39m { exitCode: 1,
+  stdout: '',
+  stderr:
+   'Getting image source signatures\nerror copying layers and metadata from "containers-storage:[overlay@/var/lib/containers/storage+/var/run/containers/storage]localhost/cw-mypython-8b049110-bab5-11e9-ac56:latest" to "docker://naveenk1/cw-mypython-8b049110-bab5-11e9-ac56:latest": Error trying to reuse blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 at destination: Error checking whether a blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 exists in docker.io/naveenk1/cw-mypython-8b049110-bab5-11e9-ac56: errors:\ndenied: requested access to the resource is denied\nerror parsing HTTP 401 response body: unexpected end of JSON input: ""\n\n' }
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Updating the Deployment Registry Status
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Deployment Registry Status Message: Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Deployment Registry Status: {"deploymentRegistryTest":false,"msg":"Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions."}
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Build state changed for project: 8b049110-bab5-11e9-ac56-2d409475f3fc from: inProgress, to: failed, with message: buildscripts.invalidDeploymentRegistry
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "buildStatus": "failed",
+  "detailedBuildStatus": "Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.",
+  "lastbuild": 1565364853806
+}
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Kicking off validation for project: 8b049110-bab5-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Application state changed for project: 8b049110-bab5-11e9-ac56-2d409475f3fc from: stopped, to: stopped
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "appStatus": "stopped",
+  "appErrorStatus": " "
+}
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Emitting event 
+ message: projectCreation
+ data: {
+  "operationId": "8b1fb47b2967ed30cb20a0014eeb8ba0",
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "status": "failed",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ],
+  "error": "The container failed to start for project my-python"
+}
+[32m[09/08/19 15:34:13 my-python] [INFO][39m Emitting event 
+ message: projectValidated
+ data: {
+  "operationId": "31cc4fe391fa2feb612085131df2c066",
+  "projectType": "docker",
+  "location": "/codewind-workspace/my-python",
+  "projectID": "8b049110-bab5-11e9-ac56-2d409475f3fc",
+  "status": "success",
+  "results": []
+}
+[32m[09/08/19 15:34:15 test-python-che] [INFO][39m Container image build stage complete.
+[32m[09/08/19 15:34:15 test-python-che] [INFO][39m Build state changed for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc from: inProgress, to: inProgress, with message: buildscripts.containerBuildSuccess
+[32m[09/08/19 15:34:15 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "buildStatus": "inProgress",
+  "detailedBuildStatus": "Container image has been built successfully",
+  "appImageLastBuild": "1565364855604"
+}
+[32m[09/08/19 15:34:15 test-python-che] [INFO][39m Pushing image
+[91m[09/08/19 15:34:16 test-python-che] [ERROR][39m containerBuildAndRun : 1306 | Getting image source signatures
+
+[32m[09/08/19 15:34:17 my-python] [INFO][39m Build completed for 8b049110-bab5-11e9-ac56-2d409475f3fc
+[91m[09/08/19 15:34:19 test-python-che] [ERROR][39m containerBuildAndRun : 1306 | error copying layers and metadata from "containers-storage:[overlay@/var/lib/containers/storage+/var/run/containers/storage]localhost/cw-testpythonche-5fd72eb0-bab7-11e9-ac56:latest" to "docker://naveenk1/cw-testpythonche-5fd72eb0-bab7-11e9-ac56:latest": Error trying to reuse blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 at destination: Error checking whether a blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 exists in docker.io/naveenk1/cw-testpythonche-5fd72eb0-bab7-11e9-ac56: errors:
+denied: requested access to the resource is denied
+error parsing HTTP 401 response body: unexpected end of JSON input: ""
+
+
+[91m[09/08/19 15:34:19 cw-testpythonche-5fd72eb0-bab7-11e9-ac56] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: containerBuildAndRun | Line Number: 1310] [39mFailed to push image to the registry for test-python-che
+[91m[09/08/19 15:34:19 cw-testpythonche-5fd72eb0-bab7-11e9-ac56] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: containerBuildAndRun | Line Number: 1311] [39m[object Object]
+[91m[09/08/19 15:34:19 FileWatcher.js] [ERROR][39m projectStatusChanged: failed (project: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "buildStatus": "failed",
+  "detailedBuildStatus": "Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.",
+  "lastbuild": 1565364859205
+})
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Validating project using operationId: 7196f7d50e4a0ca278c6f0a8246c7ff0
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Checking for required files
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Checking for required file /Dockerfile
+[91m[09/08/19 15:34:19 test-python-che] [ERROR][39m [31m[ File Name: /file-watcher/server/dist/projects/projectUtil.js | Function Name: buildAndRun | Line Number: 1103] [39mThe container failed to start for project test-python-che
+  Cause: Failed to push image to the registry for test-python-che
+ Error: Failed to push image to the registry for test-python-che
+    at containerBuildAndRun (/file-watcher/server/dist/projects/projectUtil.js:1314:19)
+[91m[09/08/19 15:34:19 FileWatcher.js] [ERROR][39m projectCreation: failed (project: {
+  "operationId": "cac49a8417e20ed198572371e87f52f5",
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "status": "failed",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ],
+  "error": "The container failed to start for project test-python-che"
+})
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Sending validation result
+[91m[09/08/19 15:34:19 test-python-che] [ERROR][39m containerBuildAndRun : 1306 | | The command buildah push,--tls-verify=false,cw-testpythonche-5fd72eb0-bab7-11e9-ac56,docker.io/naveenk1/cw-testpythonche-5fd72eb0-bab7-11e9-ac56 failed with exit code 1
+[91m[09/08/19 15:34:19 test-python-che] [ERROR][39m Error pushing image
+[91m[09/08/19 15:34:19 test-python-che] [ERROR][39m { exitCode: 1,
+  stdout: '',
+  stderr:
+   'Getting image source signatures\nerror copying layers and metadata from "containers-storage:[overlay@/var/lib/containers/storage+/var/run/containers/storage]localhost/cw-testpythonche-5fd72eb0-bab7-11e9-ac56:latest" to "docker://naveenk1/cw-testpythonche-5fd72eb0-bab7-11e9-ac56:latest": Error trying to reuse blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 at destination: Error checking whether a blob sha256:1bfeebd65323b8ddf5bd6a51cc7097b72788bc982e9ab3280d53d3c613adffa7 exists in docker.io/naveenk1/cw-testpythonche-5fd72eb0-bab7-11e9-ac56: errors:\ndenied: requested access to the resource is denied\nerror parsing HTTP 401 response body: unexpected end of JSON input: ""\n\n' }
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Updating the Deployment Registry Status
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Deployment Registry Status Message: Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Deployment Registry Status: {"deploymentRegistryTest":false,"msg":"Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions."}
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Build state changed for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc from: inProgress, to: failed, with message: buildscripts.invalidDeploymentRegistry
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "buildStatus": "failed",
+  "detailedBuildStatus": "Codewind was unable to push an image to the Deployment Registry. Please make sure it is a valid Deployment Registry with the appropriate permissions.",
+  "lastbuild": 1565364859205
+}
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Kicking off validation for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Application state changed for project: 5fd72eb0-bab7-11e9-ac56-2d409475f3fc from: stopped, to: stopped
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Emitting event 
+ message: projectStatusChanged
+ data: {
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "appStatus": "stopped",
+  "appErrorStatus": " "
+}
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Emitting event 
+ message: projectCreation
+ data: {
+  "operationId": "cac49a8417e20ed198572371e87f52f5",
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "status": "failed",
+  "ignoredPaths": [
+    "/.project",
+    "*/node_modules*",
+    "*/.git/*",
+    "*/.DS_Store",
+    "*/*.swp",
+    "*/*.swx",
+    "*/4913",
+    "/load-test*",
+    "*/.dockerignore",
+    "*/.gitignore",
+    "*/*~",
+    "/.settings"
+  ],
+  "error": "The container failed to start for project test-python-che"
+}
+[32m[09/08/19 15:34:19 test-python-che] [INFO][39m Emitting event 
+ message: projectValidated
+ data: {
+  "operationId": "7196f7d50e4a0ca278c6f0a8246c7ff0",
+  "projectType": "docker",
+  "location": "/codewind-workspace/test-python-che",
+  "projectID": "5fd72eb0-bab7-11e9-ac56-2d409475f3fc",
+  "status": "success",
+  "results": []
+}
+[32m[09/08/19 15:34:20 my-python] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:34:20 che-lagom] [INFO][39m Pod name was not found while looking up service information for project.
+[32m[09/08/19 15:34:21 my-python] [INFO][39m pingApplications: Application state error message: could not retrieve the port for the project
+[32m[09/08/19 15:34:21 test-python-che] [INFO][39m pingApplications: Application state error message: could not retrieve the port for the project
+[32m[09/08/19 15:34:22 test-python-che] [INFO][39m Build completed for 5fd72eb0-bab7-11e9-ac56-2d409475f3fc
+[32m[09/08/19 15:34:31 che-lagom] [INFO][39m Pod name was not found while looking up service information for project.

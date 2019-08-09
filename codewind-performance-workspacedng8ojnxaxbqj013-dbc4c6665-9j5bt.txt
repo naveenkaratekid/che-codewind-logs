@@ -1,0 +1,5 @@
+
+> loadrunner@1.0.0 start /usr/src/app
+> node server.js
+
+Performance server listening on port 9095!
